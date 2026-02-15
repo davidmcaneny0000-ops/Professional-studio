@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nova Sound Studio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Nova Sound</h1>
+    <p>Your studio. Your rules.</p>
+  </header>
+
+  <main>
+    <section class="player">
+      <h2>Sound Engine</h2>
+      <button id="play">Play</button>
+      <button id="pause">Pause</button>
+      <input type="range" id="volume" min="0" max="100" value="70" />
+    </section>
+
+    <section class="controls">
+      <h2>Tools</h2>
+      <button onclick="location.href='admin.html'">Enter The Vault</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
