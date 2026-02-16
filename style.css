@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #0a0a0a;
+  color: #e0e0e0;
+  overflow: hidden;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+header {
+  background: #1a1a1a;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+#studio {
+  font-size: 1.5rem;
+  color: #00ffcc;
+  text-shadow: 0 0 10px rgba(0, 255, 204, 0.3);
+  letter-spacing: 1px;
+}
